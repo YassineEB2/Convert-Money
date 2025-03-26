@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f6f6f6, #ffffff);
+    color: #333;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+    max-width: 600px;  
+    height: auto;      
+    overflow: auto;    
+    box-sizing: border-box;
+  }
+  
+  
+  h1 {
+    font-size: 24px;   
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+  }
+  
+  
+  input, select {
+    width: 250px;       
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  input:focus, select:focus {
+    outline: none;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px rgba(0, 150, 136, 0.5);
+  }
+  
+  
+  button {
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 150, 136, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;       
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(1px); 
+  }
+  
+  
+  #result {
+    margin-top: 20px;
+    font-size: 22px;   
+    font-weight: bold;
+    color: #333;
+    background-color: #eaf7e0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 90%;     
+    margin: 0 auto;     
+  }
+  
+  
+  input, select, button {
+    margin-top: 15px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 15px;
+    }
+  
+    input, select, button {
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+    
+    #result {
+      font-size: 18px;
+    }
+  }
